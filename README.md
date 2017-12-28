@@ -1,6 +1,8 @@
 
 ACI Service Insertion Use Case
 
-Web portal for the internal lab so the IP adresses are internal
+Native code on my mac with all the libraries installed
 
-The Spark room program uses the proxy adress
+Web portal for the lab, IPs reached from corporate
+
+spark does not use proxy 
