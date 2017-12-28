@@ -17,7 +17,7 @@ apic_password = "Security123"
 
 
 def excel():
-    wb = openpyxl.load_workbook('/Users/jcasado/aci_project/PROJECTS/docker_projects/shared/tenant-parametros.xlsx')
+    wb = openpyxl.load_workbook('app/shared/tenant-parametros.xlsx')
     sheet = wb.get_sheet_by_name('Sheet1')
     global t_name
     t_name = sheet['A2']

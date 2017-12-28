@@ -31,7 +31,7 @@ if not resp.ok:
 
 """ This section is related to get names from the excell """
 
-wb = openpyxl.load_workbook('/Users/jcasado/aci_project/PROJECTS/docker_projects/shared/tenant-parametros.xlsx')
+wb = openpyxl.load_workbook('app/shared/tenant-parametros.xlsx')
 sheet = wb.get_sheet_by_name('Sheet1')
 t_name = sheet['A2']
 anp_name = sheet['C2']
